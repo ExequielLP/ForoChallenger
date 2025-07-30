@@ -2,6 +2,7 @@ package Proyecto_Foro_Oracle.Foro.entity;
 
 import Proyecto_Foro_Oracle.Foro.record.CrearTopico;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
@@ -11,6 +12,7 @@ import java.time.LocalDate;
 @Entity
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 public class Topico {
 
     @Id
