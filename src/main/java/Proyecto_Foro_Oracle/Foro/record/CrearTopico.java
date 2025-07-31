@@ -2,9 +2,8 @@ package Proyecto_Foro_Oracle.Foro.record;
 
 import Proyecto_Foro_Oracle.Foro.entity.Autor;
 import Proyecto_Foro_Oracle.Foro.entity.Curso;
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.OneToOne;
-import lombok.NonNull;
+import org.springframework.lang.NonNull;
+
 
 import java.time.LocalDate;
 
