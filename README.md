@@ -1,0 +1,1 @@
+Buenas, en esta aplacacion intente aplicar todo lo aprendidos, inclusive intente usar los servicios en algunos lugares que era necesario su implementacion y en otro lugares intente usar las lamdas, usando los maps, el ifpresentorElse etc,la app es fucnional, esta documentada!
