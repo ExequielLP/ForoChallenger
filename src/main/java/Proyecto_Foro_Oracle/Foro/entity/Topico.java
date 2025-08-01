@@ -19,8 +19,10 @@ public class Topico {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @NonNull
+    @Column(unique = true)
     private String titulo;
     @NonNull
+    @Column(unique = true)
     private String mensaje;
     @NonNull
     private LocalDate fechaDeCreacion;
